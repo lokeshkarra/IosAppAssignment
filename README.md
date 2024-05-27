@@ -26,10 +26,9 @@ This project is an iOS application built using SwiftUI. It features a tab bar in
 </div>
 
 Watch the video demonstration of the app:
-
-<div align="center">
-    <iframe src="https://drive.google.com/file/d/1V6lyUK3YvyEpVVCyOfOJtfH4OpBTYgFL/view?usp=drive_link" width="640" height="480" allow="autoplay"></iframe>
-</div>
+```sh
+https://drive.google.com/file/d/1V6lyUK3YvyEpVVCyOfOJtfH4OpBTYgFL/view?usp=drive_link
+```
 
 ## Installation
 
