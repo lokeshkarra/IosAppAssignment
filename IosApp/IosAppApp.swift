@@ -1,9 +1,3 @@
-//
-//  IosAppApp.swift
-//  IosApp
-//
-//  Created by user263596 on 5/28/24.
-//
 
 import SwiftUI
 

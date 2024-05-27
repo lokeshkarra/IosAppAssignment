@@ -1,9 +1,4 @@
-//
-//  StatsView.swift
-//  ListedAssignment
-//
-//  Created by Suchith Nayaka on 22/05/24.
-//
+
 
 import SwiftUI
 

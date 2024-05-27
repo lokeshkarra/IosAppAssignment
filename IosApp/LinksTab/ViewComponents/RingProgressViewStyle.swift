@@ -1,9 +1,4 @@
-//
-//  RingProgressViewStyle.swift
-//  ListedAssignment
-//
-//  Created by Suchith Nayaka on 23/05/24.
-//
+
 
 import Foundation
 import SwiftUI
