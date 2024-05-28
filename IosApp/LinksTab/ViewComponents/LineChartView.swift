@@ -14,7 +14,7 @@ struct ClicksData: Identifiable {
     }
 }
 
-struct SampleLineChartView: View {
+struct LineChartView: View {
     let sampleClicksData = [ ClicksData(month: 1, day: 1, clicks: 25),
                               ClicksData(month: 2, day: 1, clicks: 36),
                               ClicksData(month: 3, day: 1, clicks: 52),
@@ -75,6 +75,6 @@ struct SampleLineChartView: View {
 
 struct SampleChartsView_Previews: PreviewProvider {
     static var previews: some View {
-        SampleLineChartView()
+        LineChartView()
     }
 }

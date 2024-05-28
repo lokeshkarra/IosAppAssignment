@@ -12,12 +12,24 @@ struct LinksTabView: View {
     
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
-            NavBarView()
+            //Navigation Bar
+            HStack {
+                Text("Dashboard")
+                    .font(.figtree(size: 24, weight: .bold))
+                    .foregroundColor(.white)
+                Spacer()
+                Image(.settings)
+            }
+            .padding(.top, 50)
+            .padding(.top)
+            .padding()
+            .background(Color.primaryBlue)
+        
             VStack(alignment: .leading) {
                 GreetingsView()
                 HStack {
                     Spacer()
-                    SampleLineChartView()
+                    LineChartView()
                     Spacer()
                 }
                 if linksTabVM.stats.isEmpty || linksTabVM.topLinks.isEmpty || linksTabVM.recentLinks.isEmpty {
@@ -34,7 +46,7 @@ struct LinksTabView: View {
                 if !linksTabVM.topLinks.isEmpty || !linksTabVM.recentLinks.isEmpty {
                     LinksView(topLinksList: $linksTabVM.topLinks, recentLinksList: $linksTabVM.recentLinks, delegate: self)
                 }
-                HelpSectionView()
+                HelpSection()
                 Spacer(minLength: 100)
             }
             .background(Color.primaryBackground)

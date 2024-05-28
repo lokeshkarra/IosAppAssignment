@@ -43,7 +43,7 @@ enum HelpTypes: String, CaseIterable {
         }
     }
 }
-struct HelpSectionView: View {
+struct HelpSection: View {
  
     var body: some View {
         ForEach(HelpTypes.allCases, id:\.self) { each in
