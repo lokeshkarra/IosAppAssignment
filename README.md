@@ -17,12 +17,12 @@ This project is an iOS application built using SwiftUI. It features a tab bar in
 
 <div style="display: flex;">
     <img src="https://github.com/lokeshkarra/IosAppAssignment/blob/main/ScreenShots/first.png" alt="Dashboard" width="300">
-    <img src="https://github.com/lokeshkarra/IosAppAssignment/blob/main/ScreenShots/top_links.png" alt="Chart" width="300">
+    <img src="https://github.com/lokeshkarra/IosAppAssignment/blob/main/ScreenShots/Second.png" alt="Chart" width="300">
 </div>
 
 <div style="display: flex;">
-    <img src="https://github.com/lokeshkarra/IosAppAssignment/blob/main/ScreenShots/recent_links.png" alt="Links Tab" width="300">
-    <img src="https://github.com/lokeshkarra/IosAppAssignment/blob/main/ScreenShots/whatsapp.png" alt="Chart" width="300">
+    <img src="https://github.com/lokeshkarra/IosAppAssignment/blob/main/ScreenShots/Third.png" alt="Links Tab" width="300">
+    <img src="https://github.com/lokeshkarra/IosAppAssignment/blob/main/ScreenShots/Fourth.png" alt="Support" width="300">
 </div>
 
 Watch the video demonstration of the app:
