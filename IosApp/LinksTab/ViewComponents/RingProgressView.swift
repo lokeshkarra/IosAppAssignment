@@ -4,26 +4,26 @@ import Foundation
 import SwiftUI
 
 
-public struct RingProgressViewStyle: ProgressViewStyle {
+public struct RingProgressView: ProgressViewStyle {
   private let defaultSize: CGFloat = 36
   private let lineWidth: CGFloat = 6
   private let defaultProgress = 0.2 // CHANGE
 
-  // tracks the rotation angle for the indefinite progress bar
+  
   @State private var fillRotationAngle = Angle.degrees(-90) // ADD
 
   public func makeBody(configuration: ProgressViewStyleConfiguration) -> some View {
     VStack {
       configuration.label
       progressCircleView(fractionCompleted: configuration.fractionCompleted ?? defaultProgress,
-               isIndefinite: configuration.fractionCompleted == nil) // UPDATE
-      configuration.currentValueLabel
+               isIndefinite: configuration.fractionCompleted == nil)
+        configuration.currentValueLabel
     }
   }
 
   private func progressCircleView(fractionCompleted: Double,
-                              isIndefinite: Bool) -> some View { // UPDATE
-     // this is the circular "track", which is a full circle at all times
+                              isIndefinite: Bool) -> some View {
+     
     Circle()
       .strokeBorder(Color.gray.opacity(0.5), lineWidth: lineWidth, antialiased: true)
       .overlay(fillView(fractionCompleted: fractionCompleted, isIndefinite: isIndefinite)) // UPDATE

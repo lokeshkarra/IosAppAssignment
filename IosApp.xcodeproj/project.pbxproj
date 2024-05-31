@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D30B152C2C0856C1009DC4CE /* LineChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30B152B2C0856C1009DC4CE /* LineChartModel.swift */; };
+		D30B152E2C08583E009DC4CE /* LineChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30B152D2C08583E009DC4CE /* LineChartViewModel.swift */; };
+		D3AF66A32C05CDDD00E62D24 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3AF66A22C05CDDD00E62D24 /* Media.xcassets */; };
 		D3B538BD2C0517E800F6F2F1 /* IosAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B538BC2C0517E800F6F2F1 /* IosAppApp.swift */; };
 		D3B538C42C0517E900F6F2F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B538C32C0517E900F6F2F1 /* Preview Assets.xcassets */; };
 		D3B538CE2C0517E900F6F2F1 /* IosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B538CD2C0517E900F6F2F1 /* IosAppTests.swift */; };
@@ -20,10 +23,10 @@
 		D3B538F82C0517FF00F6F2F1 /* LinksTabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B538ED2C0517FF00F6F2F1 /* LinksTabModel.swift */; };
 		D3B538F92C0517FF00F6F2F1 /* LinksTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B538EE2C0517FF00F6F2F1 /* LinksTabView.swift */; };
 		D3B538FA2C0517FF00F6F2F1 /* LinksTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B538EF2C0517FF00F6F2F1 /* LinksTabViewModel.swift */; };
-		D3B539042C05182900F6F2F1 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B538FB2C05182900F6F2F1 /* ColorExtensions.swift */; };
+		D3B539042C05182900F6F2F1 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B538FB2C05182900F6F2F1 /* ColorExtension.swift */; };
 		D3B539052C05182900F6F2F1 /* CommonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B538FC2C05182900F6F2F1 /* CommonData.swift */; };
 		D3B539062C05182900F6F2F1 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B538FD2C05182900F6F2F1 /* CustomButtonView.swift */; };
-		D3B539072C05182900F6F2F1 /* RingProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B538FE2C05182900F6F2F1 /* RingProgressViewStyle.swift */; };
+		D3B539072C05182900F6F2F1 /* RingProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B538FE2C05182900F6F2F1 /* RingProgressView.swift */; };
 		D3B539082C05182900F6F2F1 /* SegmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B538FF2C05182900F6F2F1 /* SegmentsView.swift */; };
 		D3B539092C05182900F6F2F1 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B539002C05182900F6F2F1 /* ToastView.swift */; };
 		D3B5390A2C05182900F6F2F1 /* URLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B539012C05182900F6F2F1 /* URLImageView.swift */; };
@@ -32,8 +35,7 @@
 		D3B539132C05185E00F6F2F1 /* Figtree-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3B5390D2C05185E00F6F2F1 /* Figtree-Medium.ttf */; };
 		D3B539142C05185E00F6F2F1 /* Figtree-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3B5390E2C05185E00F6F2F1 /* Figtree-Regular.ttf */; };
 		D3B539152C05185E00F6F2F1 /* Figtree-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3B5390F2C05185E00F6F2F1 /* Figtree-SemiBold.ttf */; };
-		D3B539162C05185E00F6F2F1 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B539102C05185E00F6F2F1 /* Font+Extension.swift */; };
-		D3B539182C05187900F6F2F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B539172C05187900F6F2F1 /* Assets.xcassets */; };
+		D3B539162C05185E00F6F2F1 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B539102C05185E00F6F2F1 /* FontExtension.swift */; };
 		D3B5391D2C051AF300F6F2F1 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B539192C051AF300F6F2F1 /* MenuView.swift */; };
 		D3B5391E2C051AF300F6F2F1 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B5391A2C051AF300F6F2F1 /* TabBarView.swift */; };
 		D3B5391F2C051AF300F6F2F1 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B5391B2C051AF300F6F2F1 /* MenuItemView.swift */; };
@@ -58,6 +60,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D30B152B2C0856C1009DC4CE /* LineChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartModel.swift; sourceTree = "<group>"; };
+		D30B152D2C08583E009DC4CE /* LineChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartViewModel.swift; sourceTree = "<group>"; };
+		D3AF66A22C05CDDD00E62D24 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		D3B538B92C0517E800F6F2F1 /* IosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3B538BC2C0517E800F6F2F1 /* IosAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosAppApp.swift; sourceTree = "<group>"; };
 		D3B538C32C0517E900F6F2F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -74,10 +79,10 @@
 		D3B538ED2C0517FF00F6F2F1 /* LinksTabModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinksTabModel.swift; sourceTree = "<group>"; };
 		D3B538EE2C0517FF00F6F2F1 /* LinksTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinksTabView.swift; sourceTree = "<group>"; };
 		D3B538EF2C0517FF00F6F2F1 /* LinksTabViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinksTabViewModel.swift; sourceTree = "<group>"; };
-		D3B538FB2C05182900F6F2F1 /* ColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		D3B538FB2C05182900F6F2F1 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		D3B538FC2C05182900F6F2F1 /* CommonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonData.swift; sourceTree = "<group>"; };
 		D3B538FD2C05182900F6F2F1 /* CustomButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
-		D3B538FE2C05182900F6F2F1 /* RingProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingProgressViewStyle.swift; sourceTree = "<group>"; };
+		D3B538FE2C05182900F6F2F1 /* RingProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingProgressView.swift; sourceTree = "<group>"; };
 		D3B538FF2C05182900F6F2F1 /* SegmentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentsView.swift; sourceTree = "<group>"; };
 		D3B539002C05182900F6F2F1 /* ToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 		D3B539012C05182900F6F2F1 /* URLImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLImageView.swift; sourceTree = "<group>"; };
@@ -86,8 +91,7 @@
 		D3B5390D2C05185E00F6F2F1 /* Figtree-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Medium.ttf"; sourceTree = "<group>"; };
 		D3B5390E2C05185E00F6F2F1 /* Figtree-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Regular.ttf"; sourceTree = "<group>"; };
 		D3B5390F2C05185E00F6F2F1 /* Figtree-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-SemiBold.ttf"; sourceTree = "<group>"; };
-		D3B539102C05185E00F6F2F1 /* Font+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
-		D3B539172C05187900F6F2F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../IosAppAssignment/Assets.xcassets; sourceTree = "<group>"; };
+		D3B539102C05185E00F6F2F1 /* FontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
 		D3B539192C051AF300F6F2F1 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		D3B5391A2C051AF300F6F2F1 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		D3B5391B2C051AF300F6F2F1 /* MenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
@@ -119,6 +123,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3AF66A02C05C31600E62D24 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D3B5391A2C051AF300F6F2F1 /* TabBarView.swift */,
+				D3B5391C2C051AF300F6F2F1 /* TabBarItemView.swift */,
+				D3B5391B2C051AF300F6F2F1 /* MenuItemView.swift */,
+				D3B539192C051AF300F6F2F1 /* MenuView.swift */,
+				D3AF66A22C05CDDD00E62D24 /* Media.xcassets */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		D3B538B02C0517E800F6F2F1 = {
 			isa = PBXGroup;
 			children = (
@@ -143,11 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				D3B538BC2C0517E800F6F2F1 /* IosAppApp.swift */,
-				D3B5391A2C051AF300F6F2F1 /* TabBarView.swift */,
-				D3B5391C2C051AF300F6F2F1 /* TabBarItemView.swift */,
-				D3B539172C05187900F6F2F1 /* Assets.xcassets */,
-				D3B5391B2C051AF300F6F2F1 /* MenuItemView.swift */,
-				D3B539192C051AF300F6F2F1 /* MenuView.swift */,
+				D3AF66A02C05C31600E62D24 /* TabBar */,
 				D3B538F02C0517FF00F6F2F1 /* LinksTab */,
 				D3B539112C05185E00F6F2F1 /* Font */,
 				D3B538C22C0517E900F6F2F1 /* Preview Content */,
@@ -190,11 +202,13 @@
 				D3B539002C05182900F6F2F1 /* ToastView.swift */,
 				D3B538FD2C05182900F6F2F1 /* CustomButtonView.swift */,
 				D3B538FF2C05182900F6F2F1 /* SegmentsView.swift */,
-				D3B538FE2C05182900F6F2F1 /* RingProgressViewStyle.swift */,
-				D3B538FB2C05182900F6F2F1 /* ColorExtensions.swift */,
+				D3B538FE2C05182900F6F2F1 /* RingProgressView.swift */,
+				D3B538FB2C05182900F6F2F1 /* ColorExtension.swift */,
 				D3B538E72C0517FF00F6F2F1 /* HelpSection.swift */,
 				D3B538E82C0517FF00F6F2F1 /* LinksView.swift */,
 				D3B538EA2C0517FF00F6F2F1 /* LineChartView.swift */,
+				D30B152B2C0856C1009DC4CE /* LineChartModel.swift */,
+				D30B152D2C08583E009DC4CE /* LineChartViewModel.swift */,
 				D3B538EB2C0517FF00F6F2F1 /* StatsView.swift */,
 			);
 			path = ViewComponents;
@@ -218,7 +232,7 @@
 				D3B5390D2C05185E00F6F2F1 /* Figtree-Medium.ttf */,
 				D3B5390E2C05185E00F6F2F1 /* Figtree-Regular.ttf */,
 				D3B5390F2C05185E00F6F2F1 /* Figtree-SemiBold.ttf */,
-				D3B539102C05185E00F6F2F1 /* Font+Extension.swift */,
+				D3B539102C05185E00F6F2F1 /* FontExtension.swift */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -329,9 +343,9 @@
 			files = (
 				D3B539152C05185E00F6F2F1 /* Figtree-SemiBold.ttf in Resources */,
 				D3B538C42C0517E900F6F2F1 /* Preview Assets.xcassets in Resources */,
+				D3AF66A32C05CDDD00E62D24 /* Media.xcassets in Resources */,
 				D3B539122C05185E00F6F2F1 /* Figtree-Bold.ttf in Resources */,
 				D3B539132C05185E00F6F2F1 /* Figtree-Medium.ttf in Resources */,
-				D3B539182C05187900F6F2F1 /* Assets.xcassets in Resources */,
 				D3B539142C05185E00F6F2F1 /* Figtree-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,14 +375,16 @@
 				D3B538F92C0517FF00F6F2F1 /* LinksTabView.swift in Sources */,
 				D3B5390A2C05182900F6F2F1 /* URLImageView.swift in Sources */,
 				D3B538F32C0517FF00F6F2F1 /* HelpSection.swift in Sources */,
+				D30B152C2C0856C1009DC4CE /* LineChartModel.swift in Sources */,
 				D3B539202C051AF300F6F2F1 /* TabBarItemView.swift in Sources */,
 				D3B538F42C0517FF00F6F2F1 /* LinksView.swift in Sources */,
-				D3B539162C05185E00F6F2F1 /* Font+Extension.swift in Sources */,
+				D3B539162C05185E00F6F2F1 /* FontExtension.swift in Sources */,
 				D3B5391D2C051AF300F6F2F1 /* MenuView.swift in Sources */,
 				D3B538F62C0517FF00F6F2F1 /* LineChartView.swift in Sources */,
 				D3B538F72C0517FF00F6F2F1 /* StatsView.swift in Sources */,
 				D3B538BD2C0517E800F6F2F1 /* IosAppApp.swift in Sources */,
 				D3B539062C05182900F6F2F1 /* CustomButtonView.swift in Sources */,
+				D30B152E2C08583E009DC4CE /* LineChartViewModel.swift in Sources */,
 				D3B5391E2C051AF300F6F2F1 /* TabBarView.swift in Sources */,
 				D3B539052C05182900F6F2F1 /* CommonData.swift in Sources */,
 				D3B5390B2C05182900F6F2F1 /* ViewExtensions.swift in Sources */,
@@ -376,9 +392,9 @@
 				D3B538FA2C0517FF00F6F2F1 /* LinksTabViewModel.swift in Sources */,
 				D3B538F22C0517FF00F6F2F1 /* GreetingsView.swift in Sources */,
 				D3B538F82C0517FF00F6F2F1 /* LinksTabModel.swift in Sources */,
-				D3B539042C05182900F6F2F1 /* ColorExtensions.swift in Sources */,
+				D3B539042C05182900F6F2F1 /* ColorExtension.swift in Sources */,
 				D3B539082C05182900F6F2F1 /* SegmentsView.swift in Sources */,
-				D3B539072C05182900F6F2F1 /* RingProgressViewStyle.swift in Sources */,
+				D3B539072C05182900F6F2F1 /* RingProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

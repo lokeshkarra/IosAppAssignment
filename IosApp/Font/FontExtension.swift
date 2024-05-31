@@ -19,14 +19,14 @@ extension Font {
 
     static func figtree(size: CGFloat, weight: FigtreeWeight) -> Font {
         let availableFigtreeFonts = UIFont.fontNames(forFamilyName: "Figtree")
-        print("Available Figtree font names: \(availableFigtreeFonts)")
+        //print("Available Figtree font names: \(availableFigtreeFonts)")
 
         if availableFigtreeFonts.contains(weight.rawValue) {
             return Font(UIFont(name: weight.rawValue, size: size)!)
         } else if availableFigtreeFonts.contains(FigtreeWeight.regular.rawValue) {
             return Font.figtree(size: size, weight: .regular)
         } else {
-            print("Error: No Figtree fonts available. Using system font.")
+            //print("Error: No Figtree fonts available. Using system font.")
             return Font.system(size: size) // Fallback to a system font if none are available
         }
     }

@@ -39,7 +39,7 @@ enum HelpTypes: String, CaseIterable {
         case .talkWithUs:
             return "https://wa.me/+91\(CommonData.sharedVariables.whatsappNumber)"
         case .faq:
-            return "TODO"
+            return "https://openinapp.com/faq"
         }
     }
 }

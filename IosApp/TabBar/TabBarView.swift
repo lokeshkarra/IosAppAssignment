@@ -31,6 +31,7 @@ struct TabBarView: View {
     @State var selected: Tab = .link
     @State var showMenu = false
     
+    
     var body: some View {
         
         
@@ -50,10 +51,19 @@ struct TabBarView: View {
                         
                     case .search:
                         Text(Tab.search.rawValue)
+                        Spacer()
+                        Text("Comming Soon")
+                        Spacer()
                     case .message:
                         Text(Tab.message.rawValue)
+                        Spacer()
+                        Text("Comming Soon")
+                        Spacer()
                     case .user:
                         Text(Tab.user.rawValue)
+                        Spacer()
+                            Text("Comming Soon")
+                        Spacer()
                     }
                     
                     Spacer()
