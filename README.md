@@ -27,7 +27,7 @@ This project is an iOS application built using SwiftUI. It features a tab bar in
 
 Watch the video demonstration of the app:
 ```sh
-https://drive.google.com/file/d/1V6lyUK3YvyEpVVCyOfOJtfH4OpBTYgFL/view?usp=drive_link
+https://drive.google.com/file/d/16r5tZ_M9sZ3I4kCV3qiHIfVF7UKtEkc3/view?usp=sharing
 ```
 
 ## Installation
